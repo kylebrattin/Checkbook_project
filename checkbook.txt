@@ -1,0 +1,12 @@
+deposit,500.0
+deposit,200.0
+deposit,500.0
+deposit,100.0
+Deposit,500.0
+Deposit,50.0
+ Withdraw, 275.0
+Deposit,500.0
+ Withdraw, 500.0
+ Withdraw, 275.0
+Deposited Amount,500.0
+Deposit,500.0
