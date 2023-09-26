@@ -66,3 +66,46 @@ def invalid_response():
 def exit_app():
     print('Thanks, you have a great day!')
     
+print (f"~~~Hello! Welcome to your terminal checkbook!~~~")
+
+#amount will be the input variable
+amount = 0
+#balance will be the placeholder variable
+balance = 0
+# need a continuous loop until exit
+while True:
+    print('')
+    print('What would you like to do?')
+    print('')
+    # gives a menu
+    print('1.) Your Current Balance')
+    print('2.) Withdraw')
+    print('3.) Deposit')
+    print('4.) Exit Checkbook')
+    print('')
+    
+    # user input
+    choice = input('What is your choice?')
+
+    # user chooses '1' and the check_balance function runs
+    if (choice == '1'):
+            check_balance()
+    # user chooses '2' and the withdrawal function runs
+    elif (choice == '2'):
+            withdrawal()
+
+    # user chooses '3' and the deposit function runs
+    elif (choice == '3'):
+            deposit()
+
+    # will give the invalid statement as per project
+    elif (choice > '4'):
+            invalid_response()
+        
+    # will exit the app
+    else: 
+            choice == '4'
+            exit_app()
+            break
+            
+            
